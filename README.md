@@ -33,4 +33,7 @@ $ ./build.sh
 ```
 
 ## Usage
-// TODO
+On linux:
+```
+./clang -O3 -flto -fuse-ld=lld -mllvm -passes=mba,sub,idc,bcf,fla,gle -Xlinker -mllvm -Xlinker -passes=hlw,idc -target x86_64-w64-mingw32 notepad.c -o llvm_notepad3.exe -v -L/usr/lib/gcc/x86_64-w64-mingw32/12-win32
+```
