@@ -1,5 +1,5 @@
 # Pluto
-[English](README.md) | [中文](README_zh-cn.md)
+[English](README.md)
 
 Pluto is a code obfuscator built on top of LLVM 14.0.6 (more in the future...). In summary, Pluto converts the source code into a functionally equivalent but much more complicated form at compile-time, protecting your software from being cracked.
 
